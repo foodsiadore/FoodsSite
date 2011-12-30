@@ -23,6 +23,8 @@ For the typefaces existing webfonts and the conversion of other to webfonts shou
 
 If possible symbol fonts should be used as graphic elements on the website. I.E. [Pictos](http://pictos.drewwilson.com/) or [Kfon](http://www.fontsquirrel.com/fonts/Kfon).
 
+An important element is the chef introduction like "Jason Atherton for Foods I Adore",
+but it is by no means the only part to explore.
 
 ## Physical Packaging
 
