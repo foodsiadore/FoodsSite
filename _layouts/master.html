@@ -1,5 +1,10 @@
-<!doctype html>
-<html lang="en" class="no-js">
+<!DOCTYPE HTML>
+<!--[if IEMobile 7 ]><html class="no-js no-horizontal-scroll iem7"><![endif]-->
+<!--[if lt IE 7 ]><html class="no-js no-horizontal-scroll ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="no-js no-horizontal-scroll ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="no-js no-horizontal-scroll ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js no-horizontal-scroll"  lang="en"><!--<![endif]-->
+
 <head>
   <meta charset="utf-8">
 
@@ -12,7 +17,7 @@
   initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
   maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width
   -->
-  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>{% if page.title %} {{ page.title }} | {% endif %} {{site.title}}</title>
   <meta name="description" content="{{ site.description }}">
@@ -23,12 +28,8 @@
   <![endif]-->
   <!-- All JavaScript at the bottom, except for Modernizr. -->
   <script src="/js/modernizr-1.7.min.js"></script>
-  <script src="/js/constructive.js"></script>
-  <script src="/js/tryout.js"></script>
-
-<script type="text/javascript" src="http://use.typekit.com/aii8tgf.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
+  <script src="/js/essentials.min.js"></script>
+  
   <!-- Place favicon.ico and apple-touch-icon.png in the root of your domain and delete these references -->
   <link rel="shortcut icon" type="image/x-icon" href="" />
   <link rel="apple-touch-icon" href="">
@@ -40,48 +41,23 @@
   <!--<![endif]-->
   <link rel="stylesheet" href="/css/print.css?v=1" type="text/css" media="print" />
 
-  
-  <!-- in the CSS3 stylesheet you will find examples of some great new features CSS has to offer -->
-  <link rel="stylesheet" type="text/css" href="/css/css3.css" media="screen" />
-  
-  <!-- general stylesheet contains some default styles, you do not need this, but it helps you keep a uniform style -->
-  <link rel="stylesheet" type="text/css" href="/css/general.css" media="screen" />
-  
-  <!-- grid's will help you keep your website appealing to your users, view 52framework.com website for documentation -->
-  <link rel="stylesheet" type="text/css" href="/css/grid.css" media="screen" />
-  
-  <link rel="stylesheet" type="text/css" media="screen, projection" charset="utf-8" href="/css/twitter.css" />
-
-  <link rel="stylesheet" type="text/css" media="screen, projection" charset="utf-8" href="/css/test.css" />
-
-  <link rel="stylesheet" type="text/css" media="screen, projection" charset="utf-8" href="/css/pygments.css" />
-
-  <link rel="stylesheet" type="text/css" href="/css/jScrollPane.css" />
-
-  <!-- link href="http://feeds.feedburner.com/essentialjs" type="application/atom+xml" rel="alternate" -->	
+  <!-- link href="http://feeds.feedburner.com/essentialjs" type="application/atom+xml" rel="alternate" -->  
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml" />
 
 </head>
 
-<!-- http://paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<body>
 
-<!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
-<!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
-<!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
-<!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
-<!--[if gt IE 9]>  <body>             <![endif]-->
-<!--[if !IE]><!--> <body>         <!--<![endif]-->
-
-	<div class="constrained">
+	<div class="constrained normal-read">
 	<header class="thirds-content">
 	</header>
 	</div>
 
-	<div class="constrained">
+	<div class="constrained normal-read">
 	{{ content }}
 	</div>
 	
-	<footer class="constrained">
+	<footer class="constrained normal-read">
 		
 	<script type="text/javascript">
 	  var _gaq = _gaq || [];

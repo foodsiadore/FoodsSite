@@ -20,7 +20,8 @@ h1,h2,h3,h4,h5,h6{font-weight:bold;text-rendering:optimizeLegibility;}
 ::-moz-selection{background:#FF5E99;color:#fff;text-shadow:none;}
 ::selection{background:#FF5E99;color:#fff;text-shadow:none;}
 a:link{-webkit-tap-highlight-color:#FF5E99;}
-figure{margin-top:10em;}
+.front-logo figure{margin-top:10em;margin-bottom:3em;}
+.front-logo form{text-align:center;}
 a{color:#525252;}
 a:hover,a:focus{text-decoration:underline;}
 blockquote{font-family:Georgia,"Times New Roman",Times,serif;margin:5px;padding:10px;font-size:1.52em;color:#999;font-style:italic;line-height:1.3em;width:100%;quotes:none;}
